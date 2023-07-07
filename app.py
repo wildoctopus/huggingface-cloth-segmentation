@@ -36,4 +36,4 @@ inputs = [input_image]
 outputs = [cloth_seg_image]
 
 
-gr.Interface(fn=run, inputs=inputs, outputs=outputs, title=title, description=description).launch()
+gr.Interface(fn=run, inputs=inputs, outputs=outputs, title=title, description=description).launch(share=True)
