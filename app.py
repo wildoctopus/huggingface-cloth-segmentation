@@ -25,10 +25,10 @@ def run(img):
     return cloth_seg
 
 # Define input and output interfaces
-input_image = gr.inputs.Image(label="Input Image", type="pil")
+input_image = gr.Image(label="Input Image", type="pil")
 
 # Define the Gradio interface
-cloth_seg_image = gr.outputs.Image(label="Cloth Segmentation", type="pil")
+cloth_seg_image = gr.Image(label="Cloth Segmentation", type="pil")
 
 title = "Demo for Cloth Segmentation"
 description = "An app for Cloth Segmentation"
