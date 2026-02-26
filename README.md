@@ -16,6 +16,14 @@ Here clothes are parsed into 3 category: Upper body(red), Lower body(green) and 
 - `output/alpha/..` contains alpha images corresponding to each class.
 - `output/cloth_seg` contains final segmentation.
 - 
+- 
+- If you want to process multiple images at once:
+- Put the images in `input` folder.
+- Run `python process_v2.py'` . **Script will automatically download the pretrained model**. 
+- Outputs will be saved in `output` folder.
+- `output/alpha/..` contains alpha images corresponding to each class.
+- `output/fin_seg` contains final segmentation.
+- 
 
 # Gradio Demo
 - Run `python app.py`
